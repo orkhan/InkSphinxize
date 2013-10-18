@@ -1,0 +1,24 @@
+{
+    "name": "ink/ink-sphinxize",
+    "description": "Sphinx Search for Laravel 4 - InkSphinxize",
+    "keywords": ["laravel","eloquent", "ink", "sphinx", "sphinxize"],
+    "homepage": "https://github.com/orkhan/InkSphinxize",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Orkhan",
+            "email": "o@ink.az"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.0.x",
+		"illuminate/config": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ink\\InkSphinxize": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
