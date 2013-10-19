@@ -30,6 +30,9 @@ Define a private static property `$sphinxize` with the definitions:
 
 class Post extends Eloquent
 {
+	
+	use Ink\InkSphinxize\InkSphinxize;
+
 	/**
 	 * The database table used by the model.
 	 *
